@@ -9,6 +9,10 @@ import lombok.Setter;
 @Getter
 public class SessionForm implements Serializable {
 
+    private String executedServerName;
+
+    private String executedServerIp;
+
     private String sessionId;
 
     private String creationTime;
